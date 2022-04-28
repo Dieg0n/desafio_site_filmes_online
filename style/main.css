@@ -1,0 +1,285 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+main .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: solid white;
+    border-radius: 10px;
+}
+
+main .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'arial black', times;
+    font-size: 40px;
+    
+
+}
+
+main nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+main nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/img/vikings-capa.png');
+
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition:.3s ease all;
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+    width: 1020px;
+    
+}
+
+.menu-esquerda{
+    font-size: 25px;
+    height: 2170px;
+    width: 295px;
+    border: solid white;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    
+}
+
+
+
+/*botões menú*/
+.botoes-f{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+.botoes-f:hover{
+    color: #fff;
+}
+
+.aventura{
+    margin-top: 10px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+
+.biografico{
+    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+
+}
+
+.comedia{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.comedia-dramatica{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.comedia-romantica{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.historico{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.drama{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.fantasia{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.ficcao-cientifica{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.musical{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.romance{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color:#AAA;
+}
+.terror{    margin-top:2px;
+    border: solid white;
+    width: 270px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom:  50px;
+    color:#AAA;
+}
+    
+.corpo{
+    float:right;
+    width: 1040px;
+    height: 2170px;
+    border: solid white;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    flex-direction: column;
+    background-size: cover;
+    align-items: flex-start;
+    font-size: 25px;
+    
+   
+}
+
+.imagens-corpo-c{
+border-radius: 5px;
+}
+
+.imagens-corpo{
+  width: 245px;
+    border-radius: 5px;
+    
+    }
+
+.muito-mais{
+padding-left: 5px;
+    width: 1025px;
+    height: 1310px;
+   overflow: hidden;
+   overflow-y: scroll;
+
+
+
+}
+
